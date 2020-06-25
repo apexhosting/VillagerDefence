@@ -1,0 +1,53 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&b'
+      weight: '4'
+    permissions:
+    - villagedefense.join.*
+    - -minecraft.command.tell
+    - -minecraft.command.me
+    - -minecraft.command.help
+    - -bukkit.command.help
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - EnhancedBalTop.baltop
+    - essentials.spawn
+    - tntrun.heads
+    - tntrun.shop
+    - tntrun.shop.*
+    - tntrun.join
+    - modifyworld.*
+  Admin:
+    permissions:
+    - '*'
+    options:
+      prefix: '&c&l[&cAdmin&c&l]&c'
+      weight: '1'
+  Mod:
+    options:
+      prefix: '&3&l[&3Mod&3&l]&3'
+      weight: '2'
+    permissions:
+    - essentials.gamemode
+    - essentials.gamemode.spectator
+    - essentials.mute
+    - essentials.kick
+    - essentials.ban
+  Vip:
+    options:
+      prefix: '&5&l[&5Vip&5&l]&5'
+      weight: '3'
+schema-version: 1
+users:
+  robert_bekley:
+    permissions:
+    - '*'
+  c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+    permissions:
+    - '*'
+    options:
+      name: robert_beckley
+    group:
+    - Admin

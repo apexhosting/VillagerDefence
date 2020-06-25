@@ -1,0 +1,205 @@
+#      VillageDefense configuration file
+#
+#    You can edit here the basic things of VD
+#      Please read everything CAREFULLY!
+#   You don't want to break anything, do you?
+#
+
+# Select locale of VillageDefense, default it's English.
+# Available locales:
+#    default - English language. Uses 'language.yml'.
+#    de - Deutsche sprache          pl - Język polski
+#    es - Idioma español            id - Bhasa Indonesia
+#    fr - Langue française          vn - Tiếng việt
+#    hu - Magyar nyelv              zh - 简体中文
+#    ro - Limba română              cs - Český jazyk
+#    pt_br - Português Brasileiro   lt - Lietuvių kalba
+#    it - Lingua italiana           ru - Русский язык
+locale: default
+
+# Enable bossbar support?
+Bossbar-Enabled: true
+
+# Should we hook into bungee cord? (If you wanna use arena per server option)
+# You STILL need to use external addon for HUB server game signs
+# Village Defense doesn't offer that addon.
+# Check here for more info: https://wiki.plajer.xyz/minecraft/villagedefense/addons.php#bungee-signs-not-official
+BungeeActivated: false
+
+# Enable Inventory Manager for your games? (VERY USEFUL feature for MULTI ARENA)
+# This saves inventory of players and restores it after player leaves arena.
+# Saved elements: max health, health, food, experience, full inventory, armor contents, fire ticks, active potions
+InventoryManager: true
+
+# Respawn players when wave ends/starts?
+Respawn-After-Wave: true
+
+# You can create custom players permissions here.
+# Player with your custom permission will get % bonus orbs
+# when he lift up experience from killed zombie.
+# More here: https://wiki.plajer.xyz/minecraft/villagedefense/cmds_and_perms.php#custom-permissions
+CustomPermissions:
+  # Player with permission my-permission-one get 10% more orbs
+  # Do not use dots (.), they won't work.
+  my-permission-one: 10
+
+# Basic permissions for game, permissions explained here: https://wiki.plajer.xyz/minecraft/villagedefense/cmds_and_perms.php#basic-permissions
+Basic-Permissions:
+  Full-Games-Permission: "villagedefense.fullgames"
+  Vip-Permission: "villagedefense.vip"
+  Mvp-Permission: "villagedefense.mvp"
+  Elite-Permission: "villagedefense.elite"
+  # <arena> represents arena name (NOT MAP NAME!), for example: 'villagedefense.join.VD02'
+  # use 'villagedefense.join.*' to enable access to all arenas
+  Join-Permission: "villagedefense.join.<arena>"
+
+# Should /vd leave command be blocked?
+Disable-Leave-Command: false
+
+# Commands which can be used in game, remove all of them to disable
+Whitelisted-Commands:
+  - me
+  - help
+
+# Enable this option when you're using MySQL, otherwise it won't work.
+# Be careful when changing this because there is NO migrator between
+# flat file and MySQL for player stats.
+DatabaseActivated: false
+
+# How many seconds game should take to start.
+Starting-Waiting-Time: 60
+
+# Time before next wave starts
+Cooldown-Before-Next-Wave: 25
+
+# Speed of baby zombie. Suggested: between 1.8 and 2.0
+Mini-Zombie-Speed: 2.0
+
+# Speed of normal zombies. Suggested: between 1.2 and 1.4
+Zombie-Speed: 1.3
+
+# Enable in game rewards? See rewards.yml for more...
+Rewards-Enabled: false
+
+# Enable in game (eg. '[KIT][LEVEL] Plajer: hey') special formatting?
+# Formatting is configurable in language.yml
+# You can use PlaceholderAPI placeholders in chat format!
+ChatFormat-Enabled: true
+
+# Amount of orbs given to player when game starts
+Orbs-Starting-Amount: 20
+
+# Should we block every not Village Defense associated commands in game?
+Block-Commands-In-Game: true
+
+# Should we fire some cool fireworks at location of every player after the game ends?
+Firework-When-Game-Ends: true
+
+# Should blocks behind game signs change their color based on game state?
+# They will change color to:
+# - white (waiting for players) stained glass
+# - yellow (starting) stained glass
+# - orange (in game) stained glass
+# - gray (ending) stained glass
+# - black (restarting) stained glass
+Signs-Block-States-Enabled: true
+
+# Entity upgrades section
+Entity-Upgrades:
+  # Should entity (wolves and golems) upgrades be enabled?
+  # If you want to have classic Village Defense game mode i recommend to disable this.
+  Enabled: true
+  # Cost of x tier (in orbs), ex 1: 100 means 1st tier cost 100 orbs to upgrade
+  Health-Tiers:
+    '1': 100
+    '2': 200
+    '3': 350
+    '4': 500
+  Damage-Tiers:
+    '1': 150
+    '2': 300
+    '3': 450
+    '4': 600
+  Speed-Tiers:
+    '1': 50
+    '2': 100
+    '3': 150
+    '4': 250
+  Final-Defense-Tiers:
+    '1': 200
+    '2': 350
+  Swarm-Awareness-Tiers:
+    '1': 200
+    '2': 350
+
+# Limit of mobs can be spawned per player in-game
+# Will affect only buying them in in-game shop
+Wolves-Spawn-Limit: 20
+Golems-Spawn-Limit: 15
+
+# Should holiday events for Village Defense be enabled?
+# Eg. 4 days before and 4 days after Halloween special effects
+# for death and zombies will be applied, spooky!
+Holidays-Enabled: true
+
+# Enable very simple health bar for zombies?
+# They will have health instead of their names
+# It will show percentage of health left.
+# It's kinda buggy, you should use external plugin if you got one.
+Simple-Zombie-Health-Bar-Enabled: true
+
+# Power ups section. If you want to have classic Village Defense game mode I recommend to disable this.
+Powerups:
+  # Do you want to enable in-game power ups?
+  # This will make zombies drop some power ups when they're killed
+  # REQUIRES Holographic Displays otherwise it won't be enabled!
+  Enabled: true
+  # Modify powerup drop chance here
+  Drop-Chance: 1.0 # 1% chance by default
+  # Enable or disable specific power ups here.
+  List:
+    Map-Clean: true
+    Double-Damage-For-Players:
+      Enabled: true
+      Time: 15 # seconds
+    Healing-For-Players:
+      Enabled: true
+      Amplifier: 1
+      Time-Of-Healing: 10 # seconds
+    # Spawns X golems in village
+    # Owner of golems is person who picked up power up
+    Golem-Raid:
+      Enabled: true
+      Golems-Amount: 3
+    # Every zombie can be killed for one hit
+    One-Shot-One-Kill:
+      Enabled: true
+      Time: 15 # seconds
+
+Wave-Limit:
+  # Should game have finite amount of waves
+  Enabled: false
+  # Limit of waves, if this wave ends game will end
+  Limit: 25
+
+Update-Notifier:
+  # Should we check for updates on plugin start/after admin join?
+  # You REALLY should have this true!
+  Enabled: true
+  # Should we inform you when beta version is out?
+  # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
+  Notify-Beta-Versions: true
+
+
+
+# Should we hook into Holograpic Displays? (If you wanna use (leaderboard)holograms)
+# You will be able to create holograms
+HologramsActivated: false
+
+# Should we add support for upgradeable Wolves and Golems in game?
+# Configure upgrades pricing in entity_upgrades.yml after enabling it.
+UpgradesActivated: false
+# Don't modify
+Version: 9
+
+# No way! You've reached the end! But... where's the dragon!?

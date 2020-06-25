@@ -1,0 +1,6 @@
+Welcome:
+  location: VillageDefense_world, -217.734, 29.200, 306.307
+  lines:
+  - 'ICON: DIAMOND_SWORD'
+  - '&2&lWelcome to Village Defense'
+  - Default hologram. Change it with &b/hd edit Welcome

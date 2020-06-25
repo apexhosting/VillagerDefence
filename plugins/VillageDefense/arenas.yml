@@ -1,0 +1,135 @@
+instances:
+  hollow:
+    lobbylocation: hollow,31.5,72.0,58.5,1.6508533,0.0
+    Startlocation: hollow,-52.5,72.0,50.5,89.85035,-1.6500003
+    Endlocation: VillageDefense_world,-228.5,26.0,295.5,270.98877,0.0
+    minimumplayers: 1
+    maximumplayers: 10
+    mapname: hollow
+    signs:
+    - VillageDefense_world,-215,28,295,0.0,0.0
+    - VillageDefense_world,-215,28,294,0.0,0.0
+    isdone: true
+    world: hollow
+    villagerspawns:
+      '1': hollow,-42.5,72.0,69.5,-178.3496,1.1999942
+      '2': hollow,-43.5,72.0,27.5,-271.7997,8.549987
+      '3': hollow,-28.5,72.0,38.5,-267.59958,4.349998
+      '4': hollow,-48.5,72.0,67.5,-155.99947,9.2999935
+    zombiespawns:
+      '1': hollow,-86.5,72.0,63.5,-89.84967,-0.45000327
+      '2': hollow,-86.5,72.0,54.5,-89.69971,1.9499933
+      '3': hollow,-86.5,72.0,44.5,-89.69971,1.6499839
+    doors:
+      '1':
+        location: hollow,-48.0,72.0,64.0,0.0,0.0
+        byte: 1
+      '2':
+        location: hollow,-48.0,73.0,64.0,0.0,0.0
+        byte: 9
+      '3':
+        location: hollow,-47.0,72.0,27.0,0.0,0.0
+        byte: 2
+      '4':
+        location: hollow,-47.0,73.0,27.0,0.0,0.0
+        byte: 9
+      '5':
+        location: hollow,-46.0,72.0,30.0,0.0,0.0
+        byte: 3
+      '6':
+        location: hollow,-46.0,72.0,69.0,0.0,0.0
+        byte: 0
+      '7':
+        location: hollow,-46.0,73.0,30.0,0.0,0.0
+        byte: 9
+      '8':
+        location: hollow,-46.0,73.0,69.0,0.0,0.0
+        byte: 9
+      '9':
+        location: hollow,-44.0,72.0,64.0,0.0,0.0
+        byte: 1
+      '10':
+        location: hollow,-44.0,73.0,64.0,0.0,0.0
+        byte: 8
+      '11':
+        location: hollow,-32.0,72.0,38.0,0.0,0.0
+        byte: 0
+      '12':
+        location: hollow,-32.0,73.0,38.0,0.0,0.0
+        byte: 9
+    shop: hollow,31.0,83.0,60.0,0.0,0.0
+  quarry:
+    lobbylocation: quarry,-24.572568615797625,94.0,47.86552334619791,188.39828,0.0
+    Startlocation: quarry,4.448814595173955,80.0,-0.7195848743619543,180.29965,0.5998965
+    Endlocation: VillageDefense_world,-228.5,26.0,295.5,270.98877,0.0
+    minimumplayers: 1
+    maximumplayers: 7
+    mapname: quarry
+    world: quarry
+    isdone: true
+    shop: quarry,-20.0,78.0,59.0,0.0,0.0
+    signs:
+    - VillageDefense_world,-215,28,296,0.0,0.0
+    villagerspawns:
+      '1': quarry,10.254752582429692,83.0,12.765226316300364,179.6991,10.949907
+      '2': quarry,-11.312034667127135,80.0,22.525164272761195,190.64874,6.5998974
+      '3': quarry,-15.862949952155553,83.0,5.7966902884625044,95.54944,5.849896
+    zombiespawns:
+      '1': quarry,-9.229380732921639,80.0,-32.69999998807907,0.8983154,3.149897
+      '2': quarry,4.538891764652151,80.0,-36.46200513999568,0.14880371,1.9498942
+      '3': quarry,16.44120807840935,80.0,-35.40246900409735,359.99854,2.099894
+    doors:
+      '1':
+        location: quarry,-9,84,20,0.0,0.0
+        byte: 8
+      '2':
+        location: quarry,-9,83,20,0.0,0.0
+        byte: 2
+      '3':
+        location: quarry,-12,81,18,0.0,0.0
+        byte: 8
+      '4':
+        location: quarry,-12,80,18,0.0,0.0
+        byte: 1
+      '5':
+        location: quarry,-12,81,18,0.0,0.0
+        byte: 8
+      '6':
+        location: quarry,-12,81,18,0.0,0.0
+        byte: 8
+      '7':
+        location: quarry,-12,80,18,0.0,0.0
+        byte: 1
+      '8':
+        location: quarry,10,81,8,0.0,0.0
+        byte: 8
+      '9':
+        location: quarry,10,80,8,0.0,0.0
+        byte: 1
+      '10':
+        location: quarry,10,84,15,0.0,0.0
+        byte: 8
+      '11':
+        location: quarry,10,83,15,0.0,0.0
+        byte: 1
+      '12':
+        location: quarry,4,84,20,0.0,0.0
+        byte: 8
+      '13':
+        location: quarry,4,83,20,0.0,0.0
+        byte: 2
+      '14':
+        location: quarry,-24,84,6,0.0,0.0
+        byte: 8
+      '15':
+        location: quarry,-24,83,6,0.0,0.0
+        byte: 0
+      '16':
+        location: quarry,-15,87,6,0.0,0.0
+        byte: 8
+      '17':
+        location: quarry,-15,86,6,0.0,0.0
+        byte: 2
+hollow:
+  signs:
+  - VillageDefense_world,-215,28,294,0.0,0.0
