@@ -200,6 +200,32 @@ HologramsActivated: false
 # Configure upgrades pricing in entity_upgrades.yml after enabling it.
 UpgradesActivated: false
 # Don't modify
-Version: 9
+
+#After how many zombies should we limit them?
+#Once limit is reached zombies get more health so it's still harder each wave
+Zombies-Limit: 75
+
+# Should we enable short commands such as /start and /leave
+Enable-Short-Commands: false
+
+# Should we disable all chat related stuff?
+# It will disable the separated chat, for example
+Disable-Separate-Chat: false
+#Active after zombies limit is reached
+#Higher value means weaker zombies
+Zombie-Multiplier-Divider: 18
+
+#Disable Party features of external party plugins (such as PAF, Parties ...)
+Disable-Parties: true
+
+#Disable Party features of external party plugins (such as PAF, Parties ...)
+Disable-Parties: true
+
+# Should player be able that join on ingame stage to respawn after wave?
+# Default: true
+InGame-Join-Respawn: true
+
+# Don't modify
+Version: 14
 
 # No way! You've reached the end! But... where's the dragon!?

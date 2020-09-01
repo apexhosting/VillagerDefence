@@ -1,11 +1,12 @@
 data-version: 1
 c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
-  kills: 166
-  deaths: 8
-  gamesplayed: 10
-  highestwave: 11
-  level: 3
-  xp: 1686
+  kills: 172
+  deaths: 9
+  gamesplayed: 12
+  highestwave: 18
+  level: 4
+  xp: 2376
+  orbs: 0
 901ed61b-c6f8-403a-ba3b-86e1fbcd9d19:
   kills: 57
   deaths: 0
