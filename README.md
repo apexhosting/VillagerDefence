@@ -1,4 +1,5 @@
 # Village Defense
+![alt text](https://apex-misc.s3.amazonaws.com/Images/Villager+Defense+Thumbnail.png)
 
 ## Plugin List
 [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)
