@@ -239,6 +239,7 @@ Kits:
     Essence-Item-Lore: '&7Click to absorb surrounded matter and use it as your personal
       thorn shield! Lasts for 5 seconds'
 In-Game:
+  Spawned-Wolf-Death: "One of your wolves were killed!"
   Join-As-Party-Member: '&cYou joined %ARENANAME% because the party leader joined
     it!'
   Villager-Names: Jagger,Kelsey,Kelton,Haylie,Harlow,Howard,Wulffric,Winfred,Ashley,Bailey,Beckett,Alfredo,Alfred,Adair,Edgar,ED,Eadwig,Edgaras,Buckley,Stanley,Nuffley,Mary,Jeffry,Rosaly,Elliot,Harry,Sam,Rosaline,Tom,Ivan,Kevin,Adam
@@ -405,7 +406,6 @@ Validator:
   Instance-Started: '[Village Defense] Arena %arena% instance successfully started!'
   No-Instances-Created: '[Village Defense] There are no arena instances created in
     configuration!'
-File-Version-Do-Not-Edit: 13
 Leaderboard-Holograms:
   Header: '&6&lTop %amount% in %statistic%'
   Format: '&e%place%. &f%nickname% (%value%)'
@@ -431,3 +431,6 @@ Arena-Selector:
     - ' '
     - ' '
     - '&eClick to join this arena'
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+File-Version-Do-Not-Edit: 14
