@@ -15,7 +15,6 @@ regions:
         flags: {other-explosion: deny, frosted-ice-form: deny, lava-fire: deny, water-flow: deny,
             snow-fall: deny, block-trampling: deny, leaf-decay: deny, ice-melt: deny,
             fire-spread: deny, enderdragon-block-damage: deny, snowman-trails: deny,
-            mob-damage: deny, entity-painting-destroy: deny, ravager-grief: deny,
             lightning: deny, ice-form: deny, wither-damage: deny, enderman-grief: deny,
             creeper-explosion: deny, soil-dry: deny, vine-growth: deny, item-frame-rotation: deny,
             snow-melt: deny, frosted-ice-melt: deny, lava-flow: deny, entity-item-frame-destroy: deny,
