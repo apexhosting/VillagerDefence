@@ -49,7 +49,7 @@ worlds:
   hollow:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: hollow
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -96,7 +96,7 @@ worlds:
   quarry:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: quarry
     color: WHITE
     style: NORMAL
     pvp: 'true'
