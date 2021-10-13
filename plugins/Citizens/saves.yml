@@ -1,0 +1,95 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 2
+npc:
+  '2':
+    metadata:
+      cached-skin-uuid-name: pemanah
+      cached-skin-uuid: 7dad07b6-980d-4fd3-89bb-a22797d0f854
+    name: §6§lQUARRY
+    uuid: 1a7757ec-9d2a-4d07-abec-fefc23d13195
+    traits:
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: villaged join quarry
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: 85.63246
+        world: VillageDefense_world
+        x: '-214.4122'
+        y: '26.5'
+        z: '297.3994'
+        yaw: '85.6325'
+        pitch: '-1.5316'
+      sneak:
+        sneaking: false
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: L6PGLsyPFlJ49o0DL7u69Q7YDVEus7sttAJHIeD6zTwjv/qYpp+fgOfi9eznuOdYpQqJEeFFhtBpRPx70QxK5cGM81Enp2j5QzBnXH9lhxkSjDpst/+3YaGkoL5gDZyfZle552/yeMlzsLDuChKJb/dydX9ipT4qIuf7SWchIEV7V0XnBHmFHPq+eY2NIHIMLbZe3tryOswwG5j5PyMj3QFIfNpZuqP8hSC80YQ3CoGuBeHsXEJQcBXxd3Q+2bjC3qu5d8yWdDg2OAj+Bhe3IbMlxCl+e7GK3bsWJqf0G0U+taCaIYrogs+6kE1q5+q+E/OQ/6nog4dtYYE9AHollU0jQs2fDhBJDug49IR6QVY7Wf7ABWGI9WKfn07JtXdBaYrqTxN/K881VmiMabS8VoxJs4+cWg2ZHTL4Zp1ewSJ8x+4DC1mWDzjON2NtUCjuTq02s6PKlo05Oy1bfjlhyOmK/pm9iDqRca/LDH9y7t/fIXUQ5AB2Wly9pZDnbKcGpmq9xphTbrrWmFIUkEpxVaJrympH6l6QkRsGBTTZdvafC1jjKpVRSbo/D1D6Ma83CFEDzUB9nO46HcMvRkQprdQbfhxG83bJI4GW2el9vXKRKjWuefLYhzdKDnJdf7Zpr+PfmAYa4rJu0u6+a97VHXxcv+qY9/9QEDwF1Xf3T/8=
+        skinName: pemanah
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDE0ODg5MzMzNCwKICAicHJvZmlsZUlkIiA6ICI3ZGFkMDdiNjk4MGQ0ZmQzODliYmEyMjc5N2QwZjg1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJwZW1hbmFoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFjNDQwZWFjOGJkNTMwOGMzMmNmOTgyYzNiOWMzYzliNDlkMzQ1ZGI2NDgzZWQ0NDc4NGZkMmQ5NGZjYTMyMmUiCiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: commandtrait,location,spawned,scoreboardtrait,sneak,inventory,equipment,type,mounttrait,owner,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: maticrics
+      cached-skin-uuid: 852f9e03-12d5-42fb-bbde-6723e4ba818c
+    name: §8§lHOLLOW
+    uuid: 4bd48690-538b-4722-a349-8559952cbaf3
+    traits:
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: villaged join hollow
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: 85.63246
+        world: VillageDefense_world
+        x: '-214.3877'
+        y: '26.5'
+        z: '293.6144'
+        yaw: '85.6325'
+        pitch: '-1.5316'
+      sneak:
+        sneaking: false
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: FC9SJDvh6hBdoKTDtxH/HG1va2SyNAMGQv6Oqfj7H+q6hJH7RXOa9Yz9K601h10DZFv34yY8VGARMJhLzBJ7crwBbTUdRDgRWiPF/xT541H3p3Ibi84o35JTYKN9OfTgyhi9VsFhIwhsnUONdMEm8IfxwYk+sNaZzpI95sYRIqVQQRJcmkrBvWx+sVRlURBijtEvJ39NCAiVGOkamjZxm83e1O5d4mD+o8xkuul0U7I5wrX+XLZ1v10+qN1oSEY8JikrDFcMAj8y4Bt9/i97xWC0I1fRYbNh7aSUeZPQ7i7Ie3MLmDlHsGWwVTdkbM1+9B5q9a8HhOZLT5E4yRqnjGGaMbiJyRKJCPDhh3bPBh2LcZvgzWfw74nDSCoRUlBG/jH5SS7gYGRc56ztYlZnvrQU/Kg5FddZir0odg1TM9qw8TWYfmlhzRf95pl3pQ7VXZ/Vx9xtec6zpdU+xhM1X4g8f7zVRr69h71Qa5PN6KoSB2oiSaguoJMpGiMr6vpAMLB+GNqSJ+/7QTo+dCBXrkVSt/gGZM6VYr0ppRNxRlBn6nIXc4Ep01Lw8KaatSKT82PXB3vaF7jZFFS7w46q6ftm2NF492vP/ITaeKB416bYTINXtmQtx/Q1hsfje761r53+6Q77Cu3oi2Kde8zrYz3unBiE5iPdQGsVRCY5oqw=
+        skinName: maticrics
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDE0ODc5NDI4MSwKICAicHJvZmlsZUlkIiA6ICI4NTJmOWUwMzEyZDU0MmZiYmJkZTY3MjNlNGJhODE4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNQVRJQ1JJQ1MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg1ZjRmYzRlOGJmNzlhYzdhYjYzODIzMmRkNjM3NDdlY2Y5M2EwOGQ1NTYxZTQ0NTEyMzU4NDU4MWJlYWVhMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: commandtrait,location,spawned,scoreboardtrait,inventory,sneak,equipment,type,mounttrait,skintrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

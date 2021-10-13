@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0]
+
+### Changed
+- Updated to 1.17
+- Updated Citizens✔️
+- Updated Village Defense ✔️
+- Updated Multiverse Core✔️
+- Updated ProtocolLib✔️
+- Updated TitleManager✔️
+- Updated Holographic Displays✔️
+- Updated TAB✔️
+- Replaced PermissionsEX with Luckperms as the permissions manager.🆕
+- Added NPCS to pick the arenas.🆕
+- Added new TAB.🆕
+- Added new MOTD & Icon.🆕
+
 ## [2.1]
 
 ### Changed
@@ -37,6 +53,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.0]: https://github.com/apexhosting/VillagerDefence/releases/tag/3.0
 [2.1]: https://github.com/apexhosting/VillagerDefence/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/VillagerDefence/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/VillagerDefence/releases/tag/1.0

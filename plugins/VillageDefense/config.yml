@@ -226,6 +226,52 @@ Disable-Parties: true
 InGame-Join-Respawn: true
 
 # Don't modify
-Version: 14
+
+# Can the players buy again iron golems or wolves if these
+# entities died? The config limit and permission will be ignored.
+Players-Can-Buy-GolemsWolves-If-They-Died: false
+
+# Should players get no fall damage?
+Disable-Fall-Damage: false
+
+# Should players get no drowning damage?
+Disable-Drowning-Damage: false
+
+Arena-Selector:
+  # Change items of arena selector
+  State-Item:
+    Waiting: LIME_wool
+    Starting: YELLOW_wool
+    In-Game: RED_wool
+    Ending: RED_wool
+    Restarting: RED_wool
+
+# How many villagers will be spawned in a arena?
+Villager-Amount: 10
+
+# Should the name tag of these mobs always visible?
+Name-Visible:
+  Golem: true
+  Wolf: true
+  Villager: true
+
+# How many orbs should the players lose after they dead?
+# The default is 0, so their orbs will be set to 0.
+# The value should be 1 or higher.
+Orbs-To-Lose-After-Death: 0
+# Should the orbs kept after player death?
+# true - player's orbs will be kept after death
+# false - player's orbs will be set according to the above option.
+Keep-Orbs-After-Death: false
+# Zombie glow to make it visible to players.
+Glowing-Status:
+  # From which wave should the glowing be activated?
+  Starting-Wave: 6
+
+  # How many zombies should the glow be activated from?
+  # Set to 0 to disable
+  Zombies-Left: 0
+# Don't modify
+Version: 19
 
 # No way! You've reached the end! But... where's the dragon!?

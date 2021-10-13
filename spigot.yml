@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  log-named-deaths: true
   log-villager-deaths: true
   debug: false
   save-user-cache-on-stop-only: false
@@ -161,3 +162,5 @@ world-settings:
       min: 45.0
   worldeditregentempworld:
     verbose: false
+players:
+  disable-saving: false

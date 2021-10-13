@@ -6,8 +6,7 @@ instances:
     minimumplayers: 1
     maximumplayers: 10
     mapname: hollow
-    signs:
-    - VillageDefense_world,-215,28,295,0.0,0.0
+    signs: []
     isdone: true
     world: hollow
     villagerspawns:
@@ -67,8 +66,7 @@ instances:
     world: quarry
     isdone: true
     shop: quarry,-20.0,78.0,59.0,0.0,0.0
-    signs:
-    - VillageDefense_world,-215,28,296,0.0,0.0
+    signs: []
     villagerspawns:
       '1': quarry,10.254752582429692,83.0,12.765226316300364,179.6991,10.949907
       '2': quarry,-11.312034667127135,80.0,22.525164272761195,190.64874,6.5998974
@@ -136,9 +134,8 @@ instances:
     minimumplayers: 1
     maximumplayers: 12
     mapname: Mushroom
-    signs:
-    - VillageDefense_world,-215,28,294,0.0,0.0
-    isdone: true
+    signs: []
+    isdone: false
     world: Mush
     zombiespawns:
       '1': Mush,15.699999988079071,78.0,48.518982757847375,95.555176,-3.3927417

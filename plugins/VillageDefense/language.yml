@@ -24,6 +24,8 @@ Commands:
   Location-Teleport-Invalid: '&cLocation to teleport is invalid!'
   Wrong-Usage: '&cWrong usage. Do %correct%'
   Admin-Commands:
+    Spychat-Command:
+      Toggled: '&aGame spy chat toggled to&c %value%'
     Added-Orbs: '&7Added orbs to the player!'
     Received-Orbs: '&7You received &a%orbs% orbs&7!'
     Added-Level: '&7Added level to the player!'
@@ -43,6 +45,7 @@ Commands:
     Level: '&aLevel: &e'
     Exp: '&aExp: &e'
     Next-Level-Exp: '&aExp to Level Up &e'
+    Orbs: ERR_MSG_COMMANDS_STATISTICS_ORBS_NOT_FOUND
   Main-Command:
     Header: '&6----------------{VillageDefense commands}----------'
     Description: |-
@@ -239,7 +242,7 @@ Kits:
     Essence-Item-Lore: '&7Click to absorb surrounded matter and use it as your personal
       thorn shield! Lasts for 5 seconds'
 In-Game:
-  Spawned-Wolf-Death: "One of your wolves were killed!"
+  Spawned-Wolf-Death: One of your wolves were killed!
   Join-As-Party-Member: '&cYou joined %ARENANAME% because the party leader joined
     it!'
   Villager-Names: Jagger,Kelsey,Kelton,Haylie,Harlow,Howard,Wulffric,Winfred,Ashley,Bailey,Beckett,Alfredo,Alfred,Adair,Edgar,ED,Eadwig,Edgaras,Buckley,Stanley,Nuffley,Mary,Jeffry,Rosaly,Elliot,Harry,Sam,Rosaline,Tom,Ivan,Kevin,Adam
@@ -276,6 +279,15 @@ In-Game:
       Speed-Name: '&aSpeed'
     Spectator-Warning: ERR_MSG_SPECTATOR_WARNING_NOT_FOUND
   Messages:
+    Wave-Title:
+      Start:
+        Times: 20, 30, 20
+        Title: Wave %wave%
+        SubTitle: ''
+      End:
+        Times: 20, 30, 20
+        Title: Wave %wave% ended
+        SubTitle: ''
     Lobby-Messages:
       Not-Enough-Space-For-Party: '&cYour party is bigger than free places on the
         arena %ARENANAME%'
@@ -418,10 +430,12 @@ Leaderboard-Holograms:
     Highest-Wave: '&eHighest Wave'
     Level: '&eLevel'
     Xp: '&eExperience'
+    Orbs: ERR_MSG_STATISTIC_ORBS_NOT_FOUND
   Unknown-Player: ERR_MSG_HOLOGRAMS_UNKNOWN_PLAYER_NOT_FOUND
 Arena-Selector:
   Inv-Title: Arena selector
   Item:
+    Name: '&f%mapname%'
     Lore:
     - '&aVillage Defense &f- &e%mapname%'
     - ' '
@@ -431,6 +445,11 @@ Arena-Selector:
     - ' '
     - ' '
     - '&eClick to join this arena'
-# Don't edit it. But who's stopping you? It's your server!
-# Really, don't edit ;p
-File-Version-Do-Not-Edit: 14
+File-Version-Do-Not-Edit: 19
+Placeholders:
+  Game-States:
+    Waiting: '&lWaiting for players...'
+    Starting: '&e&lStarting'
+    In-Game: '&lPlaying'
+    Ending: '&lEnding'
+    Restarting: '&c&lRestarting'
