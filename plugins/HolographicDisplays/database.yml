@@ -1,19 +1,35 @@
 Welcome:
-  location: VillageDefense_world, -217.734, 29.200, 306.307
   lines:
   - 'ICON: DIAMOND_SWORD'
   - '&2&lWelcome to Village Defense'
   - Default hologram. Change it with &b/hd edit Welcome
+  position:
+    world: VillageDefense_world
+    x: -217.734
+    y: 29.2
+    z: 306.307
 i1:
-  location: VillageDefense_world, -214.341, 29.182, 293.470
   lines:
   - '&7RIGHT CLICK'
+  position:
+    world: VillageDefense_world
+    x: -214.341
+    y: 29.182
+    z: 293.47
 i2:
-  location: VillageDefense_world, -214.359, 29.182, 297.548
   lines:
   - '&7RIGHT CLICK'
+  position:
+    world: VillageDefense_world
+    x: -214.359
+    y: 29.182
+    z: 297.548
 i3:
-  location: VillageDefense_world, -214.338, 29.738, 295.344
   lines:
   - '&c&lARENAS'
   - '&ePick the arena you want to join below!'
+  position:
+    world: VillageDefense_world
+    x: -214.338
+    y: 29.738
+    z: 295.344

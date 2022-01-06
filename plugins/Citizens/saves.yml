@@ -24,6 +24,8 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       location:
         bodyYaw: 85.63246
         world: VillageDefense_world
@@ -43,7 +45,7 @@ npc:
         updateSkins: false
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: commandtrait,location,spawned,scoreboardtrait,sneak,inventory,equipment,type,mounttrait,owner,skintrait
+    traitnames: scoreboardtrait,skintrait,owner,inventory,sneak,mounttrait,type,location,commandtrait,equipment,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -69,6 +71,8 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       location:
         bodyYaw: 85.63246
         world: VillageDefense_world
@@ -88,7 +92,7 @@ npc:
         updateSkins: false
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: commandtrait,location,spawned,scoreboardtrait,inventory,sneak,equipment,type,mounttrait,skintrait,owner
+    traitnames: skintrait,scoreboardtrait,inventory,owner,sneak,mounttrait,type,location,equipment,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

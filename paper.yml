@@ -1,10 +1,10 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# 
+#
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-# 
+#
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
@@ -12,8 +12,9 @@
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 22
+config-version: 24
 settings:
+  fix-target-selector-tag-completion: true
   lag-compensate-block-breaking: true
   send-full-pos-for-hard-colliding-entities: true
   track-plugin-scoreboards: false
@@ -28,7 +29,6 @@ settings:
   bungee-online-mode: true
   region-file-cache-size: 256
   incoming-packet-spam-threshold: 300
-  save-player-data: true
   use-alternative-luck-formula: false
   use-versioned-world: false
   suggest-player-names-when-null-tab-completions: true
@@ -53,6 +53,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   unsupported-settings:
+    perform-username-validation: true
     allow-headless-pistons: false
     allow-permanent-block-break-exploits: false
     allow-piston-duplication: false
@@ -120,6 +121,12 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    monster-spawn-max-light-level: -1
+    anticheat:
+      obfuscation:
+        items:
+          hide-itemmeta: false
+          hide-durability: false
     allow-using-signs-inside-spawn-protection: false
     fix-wither-targeting-bug: false
     map-item-frame-cursor-update-interval: 10
@@ -204,8 +211,30 @@ world-settings:
       MinimumTicks: 100
       MaximumTicks: 600
     despawn-ranges:
-      soft: 32
-      hard: 128
+      monster:
+        soft: 32
+        hard: 128
+      creature:
+        soft: 32
+        hard: 128
+      ambient:
+        soft: 32
+        hard: 128
+      axolotls:
+        soft: 32
+        hard: 128
+      underground_water_creature:
+        soft: 32
+        hard: 128
+      water_creature:
+        soft: 32
+        hard: 128
+      water_ambient:
+        soft: 32
+        hard: 64
+      misc:
+        soft: 32
+        hard: 128
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
@@ -223,6 +252,7 @@ world-settings:
       refresh-min: 12h
       refresh-max: 2d
     hopper:
+      ignore-occluding-blocks: true
       cooldown-when-full: true
       disable-move-event: false
     alt-item-despawn-rate:
@@ -298,10 +328,12 @@ world-settings:
         wither: true
         wither-skeleton: true
     spawn-limits:
-      monsters: -1
-      animals: -1
-      water-animals: -1
-      water-ambient: -1
+      monster: -1
+      creature: -1
+      axolotls: -1
+      underground_water_creature: -1
+      water_creature: -1
+      water_ambient: -1
       ambient: -1
     entity-per-chunk-save-limit:
       experience_orb: -1

@@ -1,2 +1,27 @@
 13.10.2021 - 18:25:17 - [TAB v2.9.2] Group "default" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
 13.10.2021 - 18:48:36 - [TAB v2.9.2] Group "default" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "default" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, dev, mod, vip, member]
+06.01.2022 - 18:05:41 - [TAB v3.0.1] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?
+06.01.2022 - 18:05:41 - java.nio.file.NoSuchFileException: plugins/TAB/premiumconfig.yml
+06.01.2022 - 18:05:41 -        at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+06.01.2022 - 18:05:41 -        at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+06.01.2022 - 18:05:41 -        at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+06.01.2022 - 18:05:41 -        at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:249)
+06.01.2022 - 18:05:41 -        at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+06.01.2022 - 18:05:41 -        at java.base/java.nio.file.Files.delete(Files.java:1152)
+06.01.2022 - 18:05:41 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.createConfigYml(Configs.java:484)
+06.01.2022 - 18:05:41 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.convertToV3(Configs.java:252)
+06.01.2022 - 18:05:41 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.loadConfig(Configs.java:106)
+06.01.2022 - 18:05:41 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.config.Configs.loadFiles(Configs.java:83)
+06.01.2022 - 18:05:41 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.TAB.load(TAB.java:145)
+06.01.2022 - 18:05:41 -        at TAB_v3.0.1.jar//me.neznamy.tab.platforms.bukkit.Main.onEnable(Main.java:52)
+06.01.2022 - 18:05:41 -        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+06.01.2022 - 18:05:41 -        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+06.01.2022 - 18:05:41 -        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+06.01.2022 - 18:05:41 -        at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
+06.01.2022 - 18:05:41 -        at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
+06.01.2022 - 18:05:41 -        at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727)
+06.01.2022 - 18:05:41 -        at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503)
+06.01.2022 - 18:05:41 -        at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:313)
+06.01.2022 - 18:05:41 -        at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1202)
+06.01.2022 - 18:05:41 -        at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+06.01.2022 - 18:05:41 -        at java.base/java.lang.Thread.run(Thread.java:833)
