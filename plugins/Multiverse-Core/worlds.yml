@@ -1,8 +1,55 @@
 worlds:
+  VillageDefense_world_nether:
+    ==: MVWorld
+    hidden: 'false'
+    alias: ''
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '8.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: EASY
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: -14.0
+      y: 63.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NETHER
+    seed: '3262566492483071381'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
   VillageDefense_world:
     ==: MVWorld
     hidden: 'false'
-    alias: VillageDefense_world
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -34,16 +81,63 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 69.0
-      z: 48.0
+      y: 65.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '7337073668999340298'
-    generator: 'null'
+    seed: '3262566492483071381'
+    generator: VoidGen
+    playerLimit: '-1'
+    allowFlight: 'true'
+  hollow:
+    ==: MVWorld
+    hidden: 'false'
+    alias: hollow
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: HARD
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 64.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '2207266372417259243'
+    generator: VoidGen
     playerLimit: '-1'
     allowFlight: 'true'
   Mush:
@@ -56,7 +150,7 @@ worlds:
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -90,17 +184,17 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8846396606756281022'
-    generator: 'null'
+    generator: VoidGen
     playerLimit: '-1'
     allowFlight: 'true'
-  hollow:
+  VillageDefense_world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: hollow
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '1.0'
+    scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -127,23 +221,23 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 31.46240015944967
-      y: 72.0
-      z: 56.87653255559438
-      pitch: 4.950113
-      yaw: 5.399481
+      x: 0.0
+      y: 65.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '2207266372417259243'
+    environment: THE_END
+    seed: '3262566492483071381'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   quarry:
     ==: MVWorld
     hidden: 'false'
-    alias: quarry
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -174,16 +268,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -24.74732639908826
-      y: 94.0
-      z: 47.34762524821018
-      pitch: 16.50039
-      yaw: 185.39534
+      x: 0.5
+      y: 64.0
+      z: -6.5
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
     seed: '6532558114672067250'
-    generator: 'null'
+    generator: VoidGen
     playerLimit: '-1'
     allowFlight: 'true'

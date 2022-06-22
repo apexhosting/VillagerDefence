@@ -1,0 +1,10 @@
+version: 2
+VillageDefense_world:
+  spawn:
+    x: 0.5
+    y: 65.0
+    z: 0.5
+    pitch: -5.2498527
+    yaw: -1.9101988
+    world: VillageDefense_world
+  mode: spawn

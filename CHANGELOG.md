@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.3]
+
+### Changed
+
+- Added support for 1.19
+- Added new Lobby
+- Added new NPCS for arenas
+- Added new Arena
+- Added new rewards and shop items
+- Added new cosmetics on the lobby
+- Added images from our presentation page for the gametype & match the dougverse
+
 ## [3.2]
 
 ### Changed
@@ -63,6 +75,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.3]: https://github.com/apexhosting/VillagerDefence/releases/tag/3.3
 [3.2]: https://github.com/apexhosting/VillagerDefence/releases/tag/3.2
 [3.1]: https://github.com/apexhosting/VillagerDefence/releases/tag/3.1
 [3.0]: https://github.com/apexhosting/VillagerDefence/releases/tag/3.0
