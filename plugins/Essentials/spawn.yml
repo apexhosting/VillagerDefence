@@ -1,8 +1,9 @@
-spawns: 
-  default: 
-    world: VillageDefense_world
-    x: -228.3810682504782
-    y: 26.0
-    z: 295.50581707475175
-    yaw: 270.98877
-    pitch: -0.15001202
+spawns:
+  default:
+    world: 0db89785-3359-4d5b-b168-8798d27006bd
+    world-name: VillageDefense_world
+    x: 0.26491442152203976
+    y: 65.0
+    z: 0.13244685488477467
+    yaw: -1.9101988077163696
+    pitch: -5.249852657318115

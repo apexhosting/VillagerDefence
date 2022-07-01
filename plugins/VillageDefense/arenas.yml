@@ -1,68 +1,11 @@
 instances:
-  hollow:
-    lobbylocation: hollow,31.5,72.0,58.5,1.6508533,0.0
-    Startlocation: hollow,-52.5,72.0,50.5,89.85035,-1.6500003
-    Endlocation: VillageDefense_world,-228.5,26.0,295.5,270.98877,0.0
-    minimumplayers: 1
-    maximumplayers: 10
-    mapname: hollow
-    signs: []
-    isdone: true
-    world: hollow
-    villagerspawns:
-      '1': hollow,-42.5,72.0,69.5,-178.3496,1.1999942
-      '2': hollow,-43.5,72.0,27.5,-271.7997,8.549987
-      '3': hollow,-28.5,72.0,38.5,-267.59958,4.349998
-      '4': hollow,-48.5,72.0,67.5,-155.99947,9.2999935
-    zombiespawns:
-      '1': hollow,-86.5,72.0,63.5,-89.84967,-0.45000327
-      '2': hollow,-86.5,72.0,54.5,-89.69971,1.9499933
-      '3': hollow,-86.5,72.0,44.5,-89.69971,1.6499839
-    doors:
-      '1':
-        location: hollow,-48.0,72.0,64.0,0.0,0.0
-        byte: 1
-      '2':
-        location: hollow,-48.0,73.0,64.0,0.0,0.0
-        byte: 9
-      '3':
-        location: hollow,-47.0,72.0,27.0,0.0,0.0
-        byte: 2
-      '4':
-        location: hollow,-47.0,73.0,27.0,0.0,0.0
-        byte: 9
-      '5':
-        location: hollow,-46.0,72.0,30.0,0.0,0.0
-        byte: 3
-      '6':
-        location: hollow,-46.0,72.0,69.0,0.0,0.0
-        byte: 0
-      '7':
-        location: hollow,-46.0,73.0,30.0,0.0,0.0
-        byte: 9
-      '8':
-        location: hollow,-46.0,73.0,69.0,0.0,0.0
-        byte: 9
-      '9':
-        location: hollow,-44.0,72.0,64.0,0.0,0.0
-        byte: 1
-      '10':
-        location: hollow,-44.0,73.0,64.0,0.0,0.0
-        byte: 8
-      '11':
-        location: hollow,-32.0,72.0,38.0,0.0,0.0
-        byte: 0
-      '12':
-        location: hollow,-32.0,73.0,38.0,0.0,0.0
-        byte: 9
-    shop: hollow,31.0,83.0,60.0,0.0,0.0
-  quarry:
-    lobbylocation: quarry,-24.572568615797625,94.0,47.86552334619791,188.39828,0.0
+  Quarry:
+    lobbylocation: quarry,4.448814595173955,80.0,-0.7195848743619543,180.29965,0.5998965
     Startlocation: quarry,4.448814595173955,80.0,-0.7195848743619543,180.29965,0.5998965
-    Endlocation: VillageDefense_world,-228.5,26.0,295.5,270.98877,0.0
+    Endlocation: VillageDefense_world,0.26491442152203976,65.0,0.13244685488477467,-1.9101988077163696,-5.249852657318115
     minimumplayers: 1
-    maximumplayers: 7
-    mapname: quarry
+    maximumplayers: 8
+    mapname: Quarry
     world: quarry
     isdone: true
     shop: quarry,-20.0,78.0,59.0,0.0,0.0
@@ -127,15 +70,72 @@ instances:
       '17':
         location: quarry,-15,86,6,0.0,0.0
         byte: 2
+  Hollow:
+    lobbylocation: hollow,31.5,72.0,57.5,-0.29959446,1.3499924
+    Startlocation: hollow,-52.5,72.0,50.5,89.85035,-1.6500003
+    Endlocation: VillageDefense_world,0.26491442152203976,65.0,0.13244685488477467,-1.9101988077163696,-5.249852657318115
+    minimumplayers: 1
+    maximumplayers: 10
+    mapname: Hollow
+    signs: []
+    isdone: true
+    world: hollow
+    villagerspawns:
+      '1': hollow,-42.5,72.0,69.5,-178.3496,1.1999942
+      '2': hollow,-43.5,72.0,27.5,-271.7997,8.549987
+      '3': hollow,-28.5,72.0,38.5,-267.59958,4.349998
+      '4': hollow,-48.5,72.0,67.5,-155.99947,9.2999935
+    zombiespawns:
+      '1': hollow,-86.5,72.0,63.5,-89.84967,-0.45000327
+      '2': hollow,-86.5,72.0,54.5,-89.69971,1.9499933
+      '3': hollow,-86.5,72.0,44.5,-89.69971,1.6499839
+    doors:
+      '1':
+        location: hollow,-48.0,72.0,64.0,0.0,0.0
+        byte: 1
+      '2':
+        location: hollow,-48.0,73.0,64.0,0.0,0.0
+        byte: 9
+      '3':
+        location: hollow,-47.0,72.0,27.0,0.0,0.0
+        byte: 2
+      '4':
+        location: hollow,-47.0,73.0,27.0,0.0,0.0
+        byte: 9
+      '5':
+        location: hollow,-46.0,72.0,30.0,0.0,0.0
+        byte: 3
+      '6':
+        location: hollow,-46.0,72.0,69.0,0.0,0.0
+        byte: 0
+      '7':
+        location: hollow,-46.0,73.0,30.0,0.0,0.0
+        byte: 9
+      '8':
+        location: hollow,-46.0,73.0,69.0,0.0,0.0
+        byte: 9
+      '9':
+        location: hollow,-44.0,72.0,64.0,0.0,0.0
+        byte: 1
+      '10':
+        location: hollow,-44.0,73.0,64.0,0.0,0.0
+        byte: 8
+      '11':
+        location: hollow,-32.0,72.0,38.0,0.0,0.0
+        byte: 0
+      '12':
+        location: hollow,-32.0,73.0,38.0,0.0,0.0
+        byte: 9
+    shop: hollow,-76.0,75.0,21.0,0.0,0.0
   Mushroom:
     lobbylocation: Mush,-34.38251897778151,86.0,43.29250219662023,227.75427,0.0
     Startlocation: Mush,-34.38251897778151,86.0,43.29250219662023,227.75427,0.0
-    Endlocation: VillageDefense_world,-228.5,26.0,295.5,270.98877,0.0
+    Endlocation: VillageDefense_world,0.26491442152203976,65.0,0.13244685488477467,-1.9101988077163696,-5.249852657318115
     minimumplayers: 1
     maximumplayers: 12
     mapname: Mushroom
     signs: []
-    isdone: false
+    isdone: true
     world: Mush
     zombiespawns:
       '1': Mush,15.699999988079071,78.0,48.518982757847375,95.555176,-3.3927417
@@ -189,4 +189,3 @@ instances:
       '12':
         location: Mush,-16,84,55,0.0,0.0
         byte: 1
-    shop: Mush,-46.0,100.0,30.0,0.0,0.0

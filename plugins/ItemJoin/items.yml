@@ -1,0 +1,40 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  profile-item:
+    id: PLAYER_HEAD
+    skull-owner: '%player%'
+    slot: 0
+    name: '&e&lSTATS &7[Right Click]'
+    lore:
+    - '&7Right click to see your stats.'
+    interact:
+    - 'player: vd stats'
+    itemflags: death-drops, self-drops
+    triggers: join, respawn, world-switch
+    enabled-worlds: VillageDefense_world
+  play-item:
+    id: COMPASS
+    slot: 4
+    name: '&a&lPLAY &7[Right Click]'
+    lore:
+    - '&7Click to go to the survival server!'
+    interact:
+    - 'player: vd arenas'
+    inventory:
+    - 'player: vd arenas'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-cooldown: 0
+    enchantment: FIRE_ASPECT:3
+    itemflags: inventory-modify, hide-attributes
+    triggers: join, respawn, world-switch
+    permission-node: itemjoin.play
+    enabled-worlds: VillageDefense_world

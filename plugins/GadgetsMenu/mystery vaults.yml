@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: EAST
+    Location:
+      world: VillageDefense_world
+      x: -13.0
+      y: 66.0
+      z: 0.0
+  '2':
+    BlockFace: WEST
+    Location:
+      world: VillageDefense_world
+      x: 13.0
+      y: 66.0
+      z: 0.0

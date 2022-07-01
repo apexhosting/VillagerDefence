@@ -1,0 +1,90 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&D&lLEADERBOARDS'
+open_command:
+  - leaderboard
+  - tops
+  - themostadvancedmenuintheworld
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 27
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.tops
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
+items:
+  'highest_wave':
+    material: NETHERITE_SWORD
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&7&lHIGHEST &c&lWAVE'
+    lore:
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] vd top highest_wave'
+      - '[close]'
+  'kills':
+    material: DIAMOND_SWORD
+    slot: 2
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&7&lTOP &c&lKILLS'
+    lore:
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] vd top kills'
+      - '[close]'
+  'level':
+    material: IRON_SWORD
+    slot: 4
+    priority: 4
+    update: true
+    hide_attributes: true
+    display_name: '&7&lTOP &c&lLEVEL'
+    lore:
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] vd top level'
+      - '[close]'
+  'games_played':
+    material: GOLDEN_SWORD
+    slot: 6
+    priority: 6
+    update: true
+    hide_attributes: true
+    display_name: '&7&lTOP &c&lGAMES PLAYED'
+    lore:
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] vd top games_played'
+      - '[close]'
+  'deaths':
+    material: STONE_SWORD
+    slot: 8
+    priority: 8
+    update: true
+    hide_attributes: true
+    display_name: '&7&lTOP &c&lDEATHS'
+    lore:
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] vd top deaths'
+      - '[close]'
+  'close-menu':
+    material: BARRIER
+    slot: 22
+    priority: 22
+    update: true
+    hide_attributes: true
+    display_name: '&4&lEXIT &7&lMENU'
+    lore:
+      - '&eClick to close this menu.'
+    left_click_commands:
+      - '[close]'  

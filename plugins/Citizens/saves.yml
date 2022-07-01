@@ -1,98 +1,237 @@
 # Citizens NPC Storage
 
 
-last-created-npc-id: 2
+
+
+
+
+
+
+
+
+last-created-npc-id: 4
 npc:
-  '2':
+  '4':
     metadata:
-      cached-skin-uuid-name: pemanah
-      cached-skin-uuid: 7dad07b6-980d-4fd3-89bb-a22797d0f854
-    name: §6§lQUARRY
-    uuid: 1a7757ec-9d2a-4d07-abec-fefc23d13195
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §d§lLEADERBOARDS
+    uuid: a1370e8a-c097-4c46-b3c0-09fb2193642d
     traits:
+      spawned: true
+      location:
+        bodyYaw: 116.58993
+        world: VillageDefense_world
+        x: '11.5351'
+        y: '66.0'
+        z: '6.5653'
+        yaw: '116.5899'
+        pitch: '4.3498'
       type: PLAYER
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      skintrait:
+        fetchDefaultSkin: true
+        signature: C5VWw7H3i1LxsKF6nRHw9l7X1A7GV7uoxhmKEi+eiNOy1ryi0dpLDqy3W2xUVpFwWKFm4hZAgGtMntqNTNtludvHv6517RFZOo3NFzKb3npTs0Iws09TXFTBVrrt69dE9wOXBzNP7tW8Y411LdD9Bbck3ZUqxpKzc2+GLn+64Zwng8gKtZP7n0lXD1li3vai1H5lan8SURk8dk6sbIvMfD2DLeXov7azzF5y7s84SrP0Kot9dZVzlzoYenaOV/JVp8UXoRdtqGOP195OxH4SQ7MxHaTuVQLA/t6QAR0rBXJ8cNMR48ngUmDxTHrd1l+Wi1VfXKOsDJaNObFvcNN0750uM5ikRZPHOztuavC0BP/zpLPusCHC3eNoVYprhz0bXE0jBnBoR9A/CBJXzlrh793X0hlOcBXpzpvYdAvvX7e8NU+W09IwrWVuxTKB1uDPqafoDrFkApnDHGg5G3mIphmTCdib5VaH3cB34HIAKdxhHyQbnbC4hTymBa7Uf962CikXQ9wCjA8BuRd4Tsuyax7v/EPuYnEapEhfRkBhdkc84fh33x7QQapDdFArlKsZ6yPvNCpo5UR7w5uS6usG57a/hAaplBHYTCK5h/guTl5IfJZG9j+ulVJTqykehVRFiIcREygqIWvbNbUc611Tx5aAqgFkcWHl0qXpdVd3Yqk=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjEwMDYxNDQyNiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
-            command: villaged join quarry
+            command: tops
             hand: RIGHT
             player: true
-            op: false
+            op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-        experienceCost: -1.0
-        hideErrorMessages: false
-      location:
-        bodyYaw: 85.63246
-        world: VillageDefense_world
-        x: '-214.4122'
-        y: '26.5'
-        z: '297.3994'
-        yaw: '85.6325'
-        pitch: '-1.5316'
-      sneak:
-        sneaking: false
+    traitnames: scoreboardtrait,type,location,spawned,commandtrait,owner,mounttrait,inventory,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §b§lSTATS
+    uuid: 507db13e-3208-4e64-98e5-8f0fc1b39f5a
+    traits:
       spawned: true
-      skintrait:
-        fetchDefaultSkin: true
-        signature: L6PGLsyPFlJ49o0DL7u69Q7YDVEus7sttAJHIeD6zTwjv/qYpp+fgOfi9eznuOdYpQqJEeFFhtBpRPx70QxK5cGM81Enp2j5QzBnXH9lhxkSjDpst/+3YaGkoL5gDZyfZle552/yeMlzsLDuChKJb/dydX9ipT4qIuf7SWchIEV7V0XnBHmFHPq+eY2NIHIMLbZe3tryOswwG5j5PyMj3QFIfNpZuqP8hSC80YQ3CoGuBeHsXEJQcBXxd3Q+2bjC3qu5d8yWdDg2OAj+Bhe3IbMlxCl+e7GK3bsWJqf0G0U+taCaIYrogs+6kE1q5+q+E/OQ/6nog4dtYYE9AHollU0jQs2fDhBJDug49IR6QVY7Wf7ABWGI9WKfn07JtXdBaYrqTxN/K881VmiMabS8VoxJs4+cWg2ZHTL4Zp1ewSJ8x+4DC1mWDzjON2NtUCjuTq02s6PKlo05Oy1bfjlhyOmK/pm9iDqRca/LDH9y7t/fIXUQ5AB2Wly9pZDnbKcGpmq9xphTbrrWmFIUkEpxVaJrympH6l6QkRsGBTTZdvafC1jjKpVRSbo/D1D6Ma83CFEDzUB9nO46HcMvRkQprdQbfhxG83bJI4GW2el9vXKRKjWuefLYhzdKDnJdf7Zpr+PfmAYa4rJu0u6+a97VHXxcv+qY9/9QEDwF1Xf3T/8=
-        skinName: pemanah
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDE0ODg5MzMzNCwKICAicHJvZmlsZUlkIiA6ICI3ZGFkMDdiNjk4MGQ0ZmQzODliYmEyMjc5N2QwZjg1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJwZW1hbmFoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFjNDQwZWFjOGJkNTMwOGMzMmNmOTgyYzNiOWMzYzliNDlkMzQ1ZGI2NDgzZWQ0NDc4NGZkMmQ5NGZjYTMyMmUiCiAgICB9CiAgfQp9
-        updateSkins: false
+      location:
+        bodyYaw: -130.60968
+        world: VillageDefense_world
+        x: '-10.4695'
+        y: '66.0'
+        z: '6.5732'
+        yaw: '-130.6097'
+        pitch: '1.6498'
+      type: PLAYER
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: scoreboardtrait,skintrait,owner,inventory,sneak,mounttrait,type,location,commandtrait,equipment,spawned
+      skintrait:
+        fetchDefaultSkin: true
+        signature: C5VWw7H3i1LxsKF6nRHw9l7X1A7GV7uoxhmKEi+eiNOy1ryi0dpLDqy3W2xUVpFwWKFm4hZAgGtMntqNTNtludvHv6517RFZOo3NFzKb3npTs0Iws09TXFTBVrrt69dE9wOXBzNP7tW8Y411LdD9Bbck3ZUqxpKzc2+GLn+64Zwng8gKtZP7n0lXD1li3vai1H5lan8SURk8dk6sbIvMfD2DLeXov7azzF5y7s84SrP0Kot9dZVzlzoYenaOV/JVp8UXoRdtqGOP195OxH4SQ7MxHaTuVQLA/t6QAR0rBXJ8cNMR48ngUmDxTHrd1l+Wi1VfXKOsDJaNObFvcNN0750uM5ikRZPHOztuavC0BP/zpLPusCHC3eNoVYprhz0bXE0jBnBoR9A/CBJXzlrh793X0hlOcBXpzpvYdAvvX7e8NU+W09IwrWVuxTKB1uDPqafoDrFkApnDHGg5G3mIphmTCdib5VaH3cB34HIAKdxhHyQbnbC4hTymBa7Uf962CikXQ9wCjA8BuRd4Tsuyax7v/EPuYnEapEhfRkBhdkc84fh33x7QQapDdFArlKsZ6yPvNCpo5UR7w5uS6usG57a/hAaplBHYTCK5h/guTl5IfJZG9j+ulVJTqykehVRFiIcREygqIWvbNbUc611Tx5aAqgFkcWHl0qXpdVd3Yqk=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjEwMDYxNDQyNiwKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: vd stats
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: scoreboardtrait,type,location,owner,commandtrait,spawned,mounttrait,inventory,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: 7044f919-f39e-4704-ac21-cf2107282ec7
+      cached-skin-uuid-name: thesilven
+    name: §e§lQUARRY
+    uuid: c7ceba71-cf5f-4ff3-80c3-422a3d8decbb
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -145.00357
+        world: VillageDefense_world
+        x: '-5.4978'
+        y: '66.0'
+        z: '8.4419'
+        yaw: '-145.0036'
+        pitch: '2.8499'
+      type: PLAYER
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      skintrait:
+        fetchDefaultSkin: true
+        signature: NT/EJYMa16Dcye0Yua1eGvR5qa9lFkF18dkF6EoEGepeTlHENDP7lffAsA7359IhETW94bUQvbzkLt7i9oektDy1Jv9nNi/PglDujSH+qTuowlUX+dqPUQlAI0qYxejhaLrnzPjNJJWr1nEM1PTP2/Zzm535Qk9Cv5Ep8RVPY4uL36XLQnG2EU/jOIjBtverl2bO8u6qcQd+3b7lRJnM1tZpy6U2JNyKdglRS3VoNckiQMVW37U8X08AfxnyOT+NvFvQYfzniveeyc/6cYWv0yuR5Gbm1ozHLEl4MHntQbyitddEeiHleqMxDKkyWT7jf2ONbiDLDHnD1v3YGmGmj58gqQ4bjqUZ4t61ZFJjERHOS9OUTn6UE23FhYW8kPjKg5+tID6AHxF+xSOlCy9TW+KIBLgr1I1TMHJtuWYVcRmAEoAZb0+6yEWyhBGznXdHJkOQwnnepHNNlv+YPZeS5IKP2jc7cjxgOW3VdPQjoyRlrG/mQDSelhiASnygl5x1Yr1kFWP/n7TBXlRVAqY5EoDflQIaC4vo1R2Eq/dt6pOiDhbsJ3WK7CkYHgWih3DdooGObLxV80PnPNHYfpmRKn77Lq4vt+yoW4BVlpECq/gcPv/BwyMnbBwN4pvvFQaWb+FgPFL60Ias5VDxgFXetA0shSV4QzOE03c14IO1zhU=
+        skinName: thesilven
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjEwMDI4MjQzOCwKICAicHJvZmlsZUlkIiA6ICI3MDQ0ZjkxOWYzOWU0NzA0YWMyMWNmMjEwNzI4MmVjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVTaWx2ZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM0NDBlYWM4YmQ1MzA4YzMyY2Y5ODJjM2I5YzNjOWI0OWQzNDVkYjY0ODNlZDQ0Nzg0ZmQyZDk0ZmNhMzIyZSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: vd join quarry
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: scoreboardtrait,type,location,spawned,owner,commandtrait,mounttrait,inventory,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid: 7f856230-9539-47fd-8cb8-6f063deef357
+      cached-skin-uuid-name: felix_ice
+    name: §a§lHOLLOW
+    uuid: a6adbc70-5d1a-4b4b-b480-2e08ce5b178f
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 145.09828
+        world: VillageDefense_world
+        x: '6.4883'
+        y: '66.0'
+        z: '8.491'
+        yaw: '145.0983'
+        pitch: '6.0'
+      type: PLAYER
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      skintrait:
+        fetchDefaultSkin: true
+        signature: CDGq/nxkGXZ2KaAZEDMzFA5J7OnWs2N9O+/lEZF92ipuKXMhOkoMEnklsBE1Pr0O8ewwHnOmFEv/vcBrlWh2viEcmXciTgar+ZaCax18RV+H1zBkllMex4gIzQ0MhDUo+U9zXQzzmzxP++9MZ+/VX9ShktNtALi6XJ5/6S4Mo+jRcGm3dUlKHBIAm3aesibNKSsSVApgjxx4gXoryz9k5HJ/mIGJTwgG9+JNhZPmfJVYxvgG0V6Ze8LfT2fNU17/rWkmtaEaKjMzHFkiXALkf+ftbT//N8no3gfFWEf0QBN9UYyLlxOmlW92X/O6SC3Bes9r87uEIz7uMze01kug3EZTJP6e9g6VveW8Xg2Z6jxHPVHJrCez21uZbTb+J7tL3Whc5bvZNNzW2saRh7NYmNU7nAmmNc+fxybgqVb44MUEkJNl/6mR5njjPdraMRyI8Ajlg0SBYiay+WYfaVnZdFNo7unv+cCX9wYAx8y83I4VhYaODWDNewjABqdyrsWwrE8GKrTQ7jdvWotLGtFKmElp5/lYQ1PZzeGBXkUQuVOjIdf/yicnPLub0tP1ItE0jsLlfvbjmMsmpEP0NC5ihT/X/L/GM4ozibKfRewOmIPCW3+3eBb329fm6Oj1+tuE/A5NQ09+SqTyZXMMuCCrNCboaM0mPNSuf42Pe4UMOLQ=
+        skinName: felix_ice
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjEwMDQxMDQzMSwKICAicHJvZmlsZUlkIiA6ICI3Zjg1NjIzMDk1Mzk0N2ZkOGNiODZmMDYzZGVlZjM1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZWxpeF9JQ0UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE1MTZkZWIyMGM2OTc4ZThjMTAzZjQ5NzM1YTA0NDE3M2YwOTc2ODE5Zjg3NjI4MTI1MGMxNTQ5YTNjYjkwOCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: vd join hollow
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: scoreboardtrait,type,location,owner,commandtrait,spawned,mounttrait,inventory,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '0':
     metadata:
-      cached-skin-uuid-name: maticrics
-      cached-skin-uuid: 852f9e03-12d5-42fb-bbde-6723e4ba818c
-    name: §8§lHOLLOW
-    uuid: 4bd48690-538b-4722-a349-8559952cbaf3
+      cached-skin-uuid: ea01bf4e-47cd-4a30-a3aa-dc86511b79ce
+      cached-skin-uuid-name: lila5416
+    name: §c§lMUSHROOM
+    uuid: 95508d57-b36a-4d3e-be15-a22cf4fc5c4c
     traits:
+      spawned: true
+      location:
+        bodyYaw: 178.54655
+        world: VillageDefense_world
+        x: '0.4893'
+        y: '66.0'
+        z: '10.5468'
+        yaw: '178.5466'
+        pitch: '4.2001'
       type: PLAYER
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      skintrait:
+        fetchDefaultSkin: true
+        signature: sT0cC2IlMuLVujFobUvXJcKQDGY6BCNS7b0aX3EUFSKAFK4LrfgR49G6gQVXCBVUs0E7QTh1gw/5M3fbSLIAoxsIoqvkNuWsV/Dw2UWm17vsvWZpa8yaMcFnwkTeAP1WYaf+8fHfIVnX8ItapM6aPqp4+hs4ss+oAengZv852xij3vhUxpsQZdMzftOBxtHqmxTnN4AhCOZe8OMU20exhKie4c5l2vFrHy6ZDr/wrHlQly7sKRkwPm6r7wpz2dcYBK0u0rq4h6bYwbZHPXJbWr56b+HqrfSyMhhg6MDpRQdXIeVIQKxAwk/sOHunfC3a8hpeIcA0Y+AyPltqXybTCGLgCk6QUBd172r8QYv0x0jnO1kKK8XAEx5ngUH619Tc82Q8FnRKP9PVuzB5VqpZpLkX/WaxaA5WhujSPUnb2D9QEx6no/nCYu23Yep90/z+2qr4rXAWGalKcWchzmwI1wkeMU6Dk7C3niEGXkYbyBA6RsxWc153goyHprFsehX11hu6/FFCu2hE7KWxH6dHko/EXeO221IO12epAgDiLHrsoE1AphjxPd5IGoedT+ugRFm0w3zF4eJ/jbpSwT4y5ZV6NaCleu17nn5KLJKEHlnSOyK1/F3Tm7B63/9llhrz43njDMtmtRwjABifhLHd9WnloNSYoFegC5qf6/Uo1NM=
+        skinName: lila5416
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MjEwMDM0MzQxMCwKICAicHJvZmlsZUlkIiA6ICJlYTAxYmY0ZTQ3Y2Q0YTMwYTNhYWRjODY1MTFiNzljZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWxhNTQxNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYjU2ZGQwYWNlYzMxODk1ODYxMDI1OTc0ZjYxZjFjMTk4NTdjNDJlYTlhODg1NGUwYmZhM2YyNDlmMzNiMTNlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
-            command: villaged join hollow
+            command: vd join Mushroom
             hand: RIGHT
             player: true
-            op: false
+            op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
-        experienceCost: -1.0
-        hideErrorMessages: false
-      location:
-        bodyYaw: 85.63246
-        world: VillageDefense_world
-        x: '-214.3877'
-        y: '26.5'
-        z: '293.6144'
-        yaw: '85.6325'
-        pitch: '-1.5316'
-      sneak:
-        sneaking: false
-      spawned: true
-      skintrait:
-        fetchDefaultSkin: true
-        signature: FC9SJDvh6hBdoKTDtxH/HG1va2SyNAMGQv6Oqfj7H+q6hJH7RXOa9Yz9K601h10DZFv34yY8VGARMJhLzBJ7crwBbTUdRDgRWiPF/xT541H3p3Ibi84o35JTYKN9OfTgyhi9VsFhIwhsnUONdMEm8IfxwYk+sNaZzpI95sYRIqVQQRJcmkrBvWx+sVRlURBijtEvJ39NCAiVGOkamjZxm83e1O5d4mD+o8xkuul0U7I5wrX+XLZ1v10+qN1oSEY8JikrDFcMAj8y4Bt9/i97xWC0I1fRYbNh7aSUeZPQ7i7Ie3MLmDlHsGWwVTdkbM1+9B5q9a8HhOZLT5E4yRqnjGGaMbiJyRKJCPDhh3bPBh2LcZvgzWfw74nDSCoRUlBG/jH5SS7gYGRc56ztYlZnvrQU/Kg5FddZir0odg1TM9qw8TWYfmlhzRf95pl3pQ7VXZ/Vx9xtec6zpdU+xhM1X4g8f7zVRr69h71Qa5PN6KoSB2oiSaguoJMpGiMr6vpAMLB+GNqSJ+/7QTo+dCBXrkVSt/gGZM6VYr0ppRNxRlBn6nIXc4Ep01Lw8KaatSKT82PXB3vaF7jZFFS7w46q6ftm2NF492vP/ITaeKB416bYTINXtmQtx/Q1hsfje761r53+6Q77Cu3oi2Kde8zrYz3unBiE5iPdQGsVRCY5oqw=
-        skinName: maticrics
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDE0ODc5NDI4MSwKICAicHJvZmlsZUlkIiA6ICI4NTJmOWUwMzEyZDU0MmZiYmJkZTY3MjNlNGJhODE4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNQVRJQ1JJQ1MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg1ZjRmYzRlOGJmNzlhYzdhYjYzODIzMmRkNjM3NDdlY2Y5M2EwOGQ1NTYxZTQ0NTEyMzU4NDU4MWJlYWVhMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
-        updateSkins: false
-      owner:
-        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: skintrait,scoreboardtrait,inventory,owner,sneak,mounttrait,type,location,equipment,commandtrait,spawned
+    traitnames: scoreboardtrait,type,location,spawned,owner,commandtrait,mounttrait,inventory,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

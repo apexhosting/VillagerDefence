@@ -7,6 +7,8 @@ npc:
       iterations-per-tick: 5000
       check-bounding-boxes: false
       open-doors: false
+    defaults:
+      destination-teleport-margin: -1
     default-distance-margin: 2
     default-path-distance-margin: 1
     update-path-rate: 20
@@ -31,6 +33,7 @@ npc:
       range: 75.0
     random-talker: false
     realistic-looking: false
+    spawn-nodamage-ticks: 20
     stationary-ticks: -1
     talk-close:
       enabled: false
@@ -86,10 +89,10 @@ npc:
       maximum-times-used: You have reached the maximum number of uses ({0}).
       missing-item: Missing {1} {0}
       no-permission: You don't have permission to do that.
+      not-enough-experience: You need at least {0} experience.
       not-enough-money: You need at least ${0}.
       on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
       on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
-      not-enough-experience: You need at least {0} experience.
   packets:
     update-delay: 30
   player:

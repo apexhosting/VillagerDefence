@@ -1,0 +1,37 @@
+title:
+  - '&9&lVILLAGE &7&LDEFENSE'
+text:
+  - ''
+  - '&7&o%localtime_time%'
+  - ''
+  - '&9&l> &7&lINFO'
+  - '&9Name: &7{PLAYER}'
+  - '&9Level: &7%villagedefense_level%'
+  - '&9XP: &7%villagedefense_exp%'
+  - ''
+  - '&9&l> &7&lSTATS'
+  - '&7Kills: &a%villagedefense_kills%'
+  - '&7Deaths: &c%villagedefense_deaths%'
+  - '&7Games: &e%villagedefense_games_played%'
+  - ''
+  - '&9vdf.apexmc.co'
+updater:
+  title: 3
+  text: 5
+enabledWorlds:
+  - VillageDefense_world
+changeableText:
+  perm_info:
+    text:
+      - '&cscoreboard.default'
+      - '&7scoreboard.default'
+      - '&6scoreboard.default'
+      - '&bscoreboard.default'
+      - '&dscoreboard.default'
+    interval: 10
+scroller:
+  info:
+    text: '&eThis server is running on &e&lQuickBoard! &eThe &c&lbest free scoreboard system on &6&lSpigot!'
+    width: 28
+    spaceBetween: 4
+    update: 2
